@@ -3,7 +3,10 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-
+let fullName = 'Edilson Marques Elias da Silva Júnior';
+let date = new Date();
+let currentYear = date.getFullYear();
+let profilePicture = '';
 
 
 
