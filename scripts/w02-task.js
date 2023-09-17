@@ -6,8 +6,7 @@
 let fullName = 'Edilson Marques Elias da Silva Júnior';
 let date = new Date();
 let currentYear = date.getFullYear();
-let profilePicture = document.querySelector('img');
-profilePicture.src = "images/mypic.jpg";
+let profilePicture = "images/mypic.jpg";
 
 
 /* Step 3 - Element Variables */
@@ -17,10 +16,13 @@ foodElement = document.getElementById('food');
 
 yearElement = document.querySelector('#year');
 
-nameElement.innerHTML = `<strong>${fullName}<strong>`;
-
 document.querySelector('#year').textContent = currentYear;
 
+nameElement.innerHTML = `<strong>${fullName}<strong>`;
+
+imageElement = document.querySelector('img');
+
+imageElement.setAttribute('src', profilePicture);
 
 
 /* Step 4 - Adding Content */
